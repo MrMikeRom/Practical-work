@@ -1,0 +1,73 @@
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+  }
+
+/*Первый заголовок*/
+.first-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+/*Второй заголовок*/
+.second-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/*Третий заголовок*/
+.third-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/*Параграфы*/
+.text {
+  margin-top: 0;
+  margin-bottom: 40px;
+  width: 872px;
+}
+
+/*2 серых блока, содержание и итог*/
+.gray-box {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+}
+
+/*Нижний отступ, кроме последнего*/
+.gray-box:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+/*Параграфы серых блоков*/
+.gray-box .gray-text {
+  width: 692px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+/*Стилизация списка, родитель*/
+.list-style {
+  padding-left: 15px;
+  margin-top: 0;
+}
+
+/*Элементы списка, дочерние*/
+.list-elements {
+  margin-bottom: 20px;
+}
+
+/*Изображения*/
+.image {
+  margin-bottom: 40px;
+}
+
+/*Селектор для figure*/
+.figure-style {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-left: 0;
+  width: 872px;
+}
