@@ -40,9 +40,6 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #3f2aff;
-}
-
-.download {
   background-image: url("../img/download.png");
   background-position: left center;
   background-size: 25px 25px;
