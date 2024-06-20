@@ -25,7 +25,3 @@
 .link:not(:last-child) {
   margin-right: 25px;
 }
-
-body {
-  font-family: Arial, Verdana, sans-serif;
-}
