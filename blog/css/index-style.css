@@ -29,3 +29,23 @@
 body {
   font-family: Arial, Verdana, sans-serif;
 }
+
+.link {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
+}
+
+.download-class {
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+}
+
+.download-class {
+  background-image: url("../img/download.png");
+  background-position: left center;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
