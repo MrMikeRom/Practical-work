@@ -70,15 +70,24 @@
   margin-bottom: 0;
 }
 
+/*Элементы списка, дочерние, все*/
+.list-elements {
+  font-size: 20px;
+  color: #3f2aff;
+}
+
 /*Элементы списка, дочерние, кроме последнего*/
 .list-elements:not(:last-child) {
   margin-bottom: 20px;
 }
 
-/*Элементы списка, дочерние, все*/
-.list-elements {
-  border-bottom: 1px solid #3f2aff;
-  font-size: 20px;
+/*Подчеркивание списков*/
+.list-link {
+  text-decoration: underline #3f2aff;
+}
+
+/*Цвет точек для списка  (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧   */
+ul li::marker {
   color: #3f2aff;
 }
 
@@ -96,7 +105,7 @@
   width: 872px;
 }
 
-.figcaption-style {
+.figcaption {
   border-bottom: 1px solid #b6b6b6;
   padding-top: 19px;
   padding-bottom: 19px;
@@ -106,7 +115,7 @@
 }
 
 /*Синий параграф*/
-.principle {
+.accent {
   border-radius: 20px;
   padding: 50px 95px;
   width: 100%;
@@ -117,20 +126,15 @@
 }
 
 /*Первый серый блок, картинка*/
-.first-block {
+.first-decorate-block {
   background-image: url("../img/decorate-1.png");
   background-position: right center;
   background-repeat: no-repeat;
 }
 
 /*Второй серый блок, картинка*/
-.second-block {
+.second-decorate-block {
   background-image: url("../img/decorate-2.png");
   background-position: right center;
   background-repeat: no-repeat;
-}
-
-/*Цвет точек для списка  (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧   */
-ul li::marker {
-  color: normal;
 }
