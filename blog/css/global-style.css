@@ -42,23 +42,28 @@ body {
 /* 1) <-- На главную */
 .to-main {
   display: inline-block;
-  width: 160px;
   height: 23px;
   margin-bottom: 25px;
-}
-
-/* 2) Стрелочка <--*/
-.arrow {
-  width: 46px;
-  height: 8px;
-  margin-bottom: 9px;
 }
 
 /* 3) На главную (ссылка в Index) */
 .back-to-index {
   font-weight: 400;
-  width: 108px;
   height: 23px;
+  color: #3f2aff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.back-to-index span {
+  display: block;
+}
+
+.back-to-index:hover {
+  cursor: progress;
+  color: blueviolet;
+  transition: color .3s ease;
 }
 
 /* Первый заголовок */
