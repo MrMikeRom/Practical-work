@@ -1,3 +1,4 @@
+/*Не лезь, убьет*/
 html {
 	box-sizing: border-box;
 }
@@ -21,4 +22,64 @@ body {
 	font-family: 'font', sans-serif;
 }
 
-/*Не лезь, убьет*/
+/* СТИЛИ ДЛЯ MODULES, по условию тут писать надо, у меня вместо style.css */
+
+.container {
+  box-sizing: border-box;
+  width: 1170px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Заголовок SkillBox */
+.title-skillbox {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 25px;
+
+}
+
+/* 1) <-- На главную */
+.to-main {
+  display: inline-block;
+  width: 160px;
+  height: 23px;
+  margin-bottom: 25px;
+}
+
+/* 2) Стрелочка <--*/
+.arrow {
+  width: 46px;
+  height: 8px;
+  margin-bottom: 9px;
+}
+
+/* 3) На главную (ссылка в Index) */
+.back-to-index {
+  font-weight: 400;
+  width: 108px;
+  height: 23px;
+}
+
+/* Первый заголовок */
+.first-title {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 50px;
+  width: 1170px;
+  height: 69px;
+  font-weight: 700;
+  font-size: 60px;
+  color: #3f2aff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Список / карточки */
+.cards {
+
+}
+
+/* Список (родитель) */
+.list {
+
+}
