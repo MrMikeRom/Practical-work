@@ -1,27 +1,9 @@
-@font-face {
-	font-family: 'Arial-BoldMT';
-	src: url('/fonts/Arial-BoldMT.eot');
-	src: local('Arial-BoldMT'), local('Arial-BoldMT'),
-		url('/fonts/Arial-BoldMT.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'ArialMT';
-	src: url('/fonts/ArialMT.eot');
-	src: local('ArialMT'), local('ArialMT'),
-		url('/fonts/ArialMT.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
 /*Зона контента*/
 .container {
   box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 1197px;
 }
 
 /* Заголовок SkillBox */
@@ -83,29 +65,77 @@
 
 /* Контейнер списка */
 .cards {
-  box-sizing: border-box;
   width: 100%;
+  font-size: 0;
 }
 
 /* Список (родитель) */
 .list {
   list-style-type: none;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 50px;
   padding: 0;
 }
 
 /* Карточки списка (дочь) */
 .list-item {
+  box-sizing: border-box;
   display: inline-block;
   width: 572px;
   height: 505px;
-  max-width: 100%;
-  padding: 0 25px 25px 0;
+  margin: 0 25px 25px 0;
+  position: relative;
+}
+
+.number {
+  font-family: 'ArialMT', sans-serif;
+  display: inline-block;
+  width: 45px;
+  height: 46px;
+  position: absolute;
+  text-align: right;
+  bottom: 25px;
+  right: 25px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 40px;
+  color: #acabab;
+}
+
+.background1 {
+  box-sizing: border-box;
+  width: 572px;
+  height: 180px;
+  background-image: url('/img/svg/1photo-card.svg');
+  background-repeat: no-repeat;
+}
+
+.background2 {
+  box-sizing: border-box;
+  width: 572px;
+  height: 180px;
+  background-image: url('/img/svg/2photo-card.svg');
+  background-repeat: no-repeat;
+}
+
+.background3 {
+  box-sizing: border-box;
+  width: 572px;
+  height: 180px;
+  background-image: url('/img/svg/3photo-card.svg');
+  background-repeat: no-repeat;
+}
+
+.background4 {
+  box-sizing: border-box;
+  width: 572px;
+  height: 180px;
+  background-image: url('/img/svg/4photo-card.svg');
+  background-repeat: no-repeat;
 }
 
 /* Область под картинкой */
 .text-area {
-  box-sizing: border-box;
   padding-top: 25px;
   padding-left: 25px;
   width: 572px;
@@ -135,30 +165,31 @@
   font-size: 20px;
   line-height: 165%;
   color: #333;
+  list-style: none;
+  padding: 0;
 }
 
-.number {
-  font-family: 'ArialMT', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  text-align: right;
-  color: #acabab;
-  margin: 0;
-  z-index: 1;
+.zaebala {
+  box-sizing: border-box;
+  display: inline-block;
+  display: flex;
+  margin: 0 auto;
 }
 
 .show-more {
   box-sizing: border-box;
-  padding: 24px 75px;
-  border: 2px solid #3f2aff;
-  padding: 25px 76px;
+  display: inline-block;
+  margin: 0 auto;
   width: 274px;
   height: 70px;
+  margin-bottom: 50px;
+  border: 2px solid #3f2aff;
+  padding: 25px 76px;
 }
 
 .show-more span {
   box-sizing: border-box;
-  display: flex;
+  display: inline-block;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
