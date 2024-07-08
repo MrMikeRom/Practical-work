@@ -21,4 +21,18 @@ body {
 	font-family: 'font', sans-serif;
 }
 
-/*Не лезь, убьет*/
+@font-face {
+	font-family: 'Arial-BoldMT';
+	src: local('Arial-BoldMT'), local('Arial-BoldMT'),
+		url('/fonts/Arial-BoldMT.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ArialMT';
+	src: local('ArialMT'), local('ArialMT'),
+		url('/fonts/ArialMT.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
