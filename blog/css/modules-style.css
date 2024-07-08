@@ -218,6 +218,7 @@
   margin-bottom: 50px;
   font-family: 'ArialMT', sans-serif;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .button:hover {
